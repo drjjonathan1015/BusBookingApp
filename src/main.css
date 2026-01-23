@@ -1,0 +1,35 @@
+/* Tailwind directives (for v4 use @import, for v3 use @tailwind) */
+@import "tailwindcss";
+
+/* Optional custom styles */
+body {
+  background-color: #f9fafb;
+  color: #1f2937;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+input, select {
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 0.75rem;
+}
+
+input:focus, select:focus {
+  outline: none;
+  ring: 2px;
+  ring-color: #3b82f6;
+}
+
+button {
+  cursor: pointer;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
