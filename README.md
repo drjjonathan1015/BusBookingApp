@@ -2,7 +2,8 @@
 
 A modern **Progressive Web App (PWA)** for booking bus tickets across Sri Lanka. Built using **Vue 3**, **Vite**, **Firebase**, and **Tailwind CSS**, this system allows users to search buses, select seats, make payments, receive email confirmations, and download PDF e-tickets with QR codes.
 
- Working link is - [Web App link](https://busbookingapp-31c91.web.app/)
+## 🚀 Live Demo
+[![Live on Firebase](https://img.shields.io/badge/Firebase-Live-orange?logo=firebase)](https://busbookingapp-31c91.web.app/)
 ---
 
 ## 🚀 Features
