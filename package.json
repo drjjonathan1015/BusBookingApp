@@ -9,18 +9,26 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@vueuse/head": "^2.0.0",
     "firebase": "^12.8.0",
+    "jsbarcode": "^3.12.3",
     "jspdf": "^4.0.0",
+    "lottie-vuejs": "^0.4.0",
+    "lottie-web": "^5.13.0",
+    "qrcode": "^1.5.4",
+    "vite-svg-loader": "^5.1.0",
     "vue": "^3.5.24",
     "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
     "@tailwindcss/postcss7-compat": "^2.2.17",
-    "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue": "^6.0.3",
     "autoprefixer": "^10.4.23",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vite-plugin-pwa": "^1.2.0"
   }
 }

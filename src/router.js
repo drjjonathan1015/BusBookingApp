@@ -9,9 +9,11 @@ import BookingHistory from "./components/BookingHistory.vue";
 import AdminPanel from "./components/AdminPanel.vue";
 import AdminRegister from "./components/AdminRegister.vue";
 import SeatSelection from "./components/SeatSelection.vue";
+import UserProfile from "./components/UserProfile.vue";
+import Payment from "./components/Payment.vue";
 
 const routes = [
-  { path: "/", name: "Home", component: Home },  // ✅ FIXED - Home component on root
+  { path: "/", name: "Home", component: Home },
   { path: "/search", name: "BusSearch", component: BusSearch },
   { path: "/buses", name: "BusList", component: BusList },
   { path: "/login", name: "Login", component: Login },
@@ -20,6 +22,8 @@ const routes = [
   { path: "/admin", name: "Admin", component: AdminPanel },
   { path: "/admin-register", name: "AdminRegister", component: AdminRegister },
   { path: "/seat-selection", name: "SeatSelection", component: SeatSelection },
+  { path: "/profile", name: "UserProfile", component: UserProfile },
+  { path: "/payment", name: "Payment", component: Payment },
 ];
 
 const router = createRouter({

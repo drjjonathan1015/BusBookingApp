@@ -1,11 +1,15 @@
-/* Tailwind directives (for v4 use @import, for v3 use @tailwind) */
+/* Tailwind v4 directive */
 @import "tailwindcss";
+
+/* Configure dark mode variant for Tailwind v4 */
+@variant dark (&:where(.dark, .dark *));
 
 /* Optional custom styles */
 body {
   background-color: #f9fafb;
   color: #1f2937;
   font-family: system-ui, -apple-system, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 input, select {
@@ -14,16 +18,18 @@ input, select {
   padding: 0.5rem;
   width: 100%;
   margin-bottom: 0.75rem;
+  transition: all 0.3s;
 }
 
 input:focus, select:focus {
   outline: none;
-  ring: 2px;
-  ring-color: #3b82f6;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 button {
   cursor: pointer;
+  transition: all 0.3s;
 }
 
 .card {
@@ -32,4 +38,13 @@ button {
   border-radius: 0.25rem;
   padding: 1rem;
   margin-bottom: 1rem;
+  transition: all 0.3s;
+}
+
+body, #app {
+  margin: 0;
+  padding: env(safe-area-inset);
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
