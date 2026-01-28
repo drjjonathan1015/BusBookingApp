@@ -54,31 +54,27 @@ A modern **Progressive Web App (PWA)** for booking bus tickets across Sri Lanka.
 ---
 
 ## 📸 Screenshots
-<<<<<<< HEAD
-* Home Page
-  ![Screenshot1](screenshots/Home Page.png)
-* Search Page
-  ![Screenshot2](screenshots/Search Page.png)
-* Bus List Page
-  ![Screenshot3](screenshots/Bus List Page.png)
-* Seat Selection
-  ![Screenshot4](screenshots/Seat Selection Page.png)
-* Payment Page
-  ![Screenshot5](screenshots/Payment Page.png)
-* Booking History
-  ![Screenshot6](screenshots/Booking History.png)
-* PDF Ticket
-  ![Screenshot7](screenshots/PDF Ticket.png)
-=======
->
-* Home Page ![Screenshot1](screenshots/screen1.png)
-* Search Page ![Screenshot2](screenshots/screen2.png)
-* Bus List Page ![Screenshot3](screenshots/screen3.png)
-* Seat Selection ![Screenshot4](screenshots/screen4.png)
-* Payment Page ![Screenshot5](screenshots/screen5.png)
-* Booking History ![Screenshot6](screenshots/screen6.png)
-* PDF Ticket ![Screenshot7](screenshots/screen7.png)
->>>>>>> a1d7e51 (Add project README)
+
+### 🏠 Home Page
+![Home Page](screenshots/screen1.png)
+
+### 🔍 Search Page
+![Search Page](screenshots/screen2.png)
+
+### 🚌 Bus List Page
+![Bus List Page](screenshots/screen3.png)
+
+### 💺 Seat Selection
+![Seat Selection](screenshots/screen4.png)
+
+### 💳 Payment Page
+![Payment Page](screenshots/screen5.png)
+
+### 📜 Booking History
+![Booking History](screenshots/screen6.png)
+
+### 🎫 PDF Ticket
+![PDF Ticket](screenshots/screen7.png)
 
 ---
 
