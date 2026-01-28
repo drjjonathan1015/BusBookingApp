@@ -54,14 +54,20 @@ A modern **Progressive Web App (PWA)** for booking bus tickets across Sri Lanka.
 ---
 
 ## 📸 Screenshots
-
-> *(Add screenshots here)*
-
 * Home Page
+  ![Screenshot1](screenshots/Home Page.png)
+* Search Page
+  ![Screenshot2](screenshots/Search Page.png)
+* Bus List Page
+  ![Screenshot3](screenshots/Bus List Page.png)
 * Seat Selection
+  ![Screenshot4](screenshots/Seat Selection Page.png)
 * Payment Page
+  ![Screenshot5](screenshots/Payment Page.png)
 * Booking History
+  ![Screenshot6](screenshots/Booking History.png)
 * PDF Ticket
+  ![Screenshot7](screenshots/PDF Ticket.png)
 
 ---
 
